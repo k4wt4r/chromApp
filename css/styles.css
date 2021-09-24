@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 .hidden{
     display: none;
 }
@@ -6,10 +8,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-
-body{
-    background-color:antiquewhite;
-    color: black;
-  
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://live.staticflickr.com/65535/49449270391_6f852dfa90_h.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    margin: 1rem;
+}
+input {
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background: none;
+    border: 3px solid black;
+}
+button {
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+}
+#todo-form {
+    align-self: flex-start;
+}
+li {
+    margin-left: 4rem;
+    text-decoration: none;
+    list-style: none;
 }
