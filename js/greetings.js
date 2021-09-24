@@ -1,4 +1,4 @@
-const loginForm = document.querySelector("#login-form");
+const loginForm = document.querySelector("form#login-form");
 const loginInput = document.querySelector("#login-form-input");
 const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASS = "hidden";
@@ -13,7 +13,7 @@ function onSubmit(event){
     greeting.classList.remove(HIDDEN_CLASS);
 
 }
-savedUsersavedUsersavedUser
+
 function greetIngs(username){
     greeting.innerText = "Hello " + username;
     greeting.classList.remove(HIDDEN_CLASS);
@@ -26,5 +26,4 @@ if(savedUser === null){
     loginForm.addEventListener("submit",onSubmit);
 } else{
     greetIngs(savedUser);
-    
 }

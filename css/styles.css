@@ -11,8 +11,5 @@
 body{
     background-color:antiquewhite;
     color: black;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
   
 }
