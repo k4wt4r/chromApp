@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(rgba(50, 53, 241, 0.7), rgba(233, 248, 15, 0.7)), url("test.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form{
+    margin-bottom: 15px;
+}
+input,
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 0.5em 0.5em;
+}
+
